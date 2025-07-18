@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Anugrah 🤍 Rany</title>
+  <style>
+    body {
+      background: linear-gradient(to bottom, #ffd1dc, #ffe4ec);
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+    .container {
+      position: relative;
+      display: inline-block;
+    }
+    .photos {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .photos img {
+      width: 200px;
+      height: 300px;
+      border-radius: 20px;
+      object-fit: cover;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    .love-sticker {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 60px;
+      color: red;
+      animation: pulse 1s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1) translate(-50%, -50%); }
+      50% { transform: scale(1.2) translate(-50%, -50%); }
+    }
+    .judul {
+      margin-top: 30px;
+      font-size: 28px;
+      font-weight: bold;
+      color: #d6336c;
+    }
+    audio {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="photos">
+      <img src="anugrah.jpg" alt="Foto 1">
+      <img src="rany.jpg" alt="Foto 2">
+    </div>
+    <div class="love-sticker">❤️</div>
+  </div>
+
+  <div class="judul">Anugrah 🤍 Rany</div>
+
+  <audio controls>
+    <source src="anugrah suka rany.mp3" type="audio/mpeg">
+    Browser kamu tidak mendukung audio player.
+  </audio>
+
+</body>
+</html>
